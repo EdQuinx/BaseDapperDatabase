@@ -1,0 +1,10 @@
+.suo
+*.suo
+*.dll
+*.pdb
+*.exe
+*.config
+*.xml
+.vs
+*.application
+obj
