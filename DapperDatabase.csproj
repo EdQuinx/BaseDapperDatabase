@@ -58,6 +58,8 @@
     <Compile Include="MemberDatas\MemberDapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerDatas\Data\LanguageInfo.cs" />
+    <Compile Include="ServerDatas\LanguageManager.cs" />
     <Compile Include="ServerDatas\ServerDapper.cs" />
   </ItemGroup>
   <ItemGroup>

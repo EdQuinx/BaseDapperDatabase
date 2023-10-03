@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DapperDatabase.ServerDatas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace DapperDatabase
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("`23456");
+            LanguageManager.LoadFromFile("file.txt");
+            LanguageManager.SaveToDatabase();
             Console.ReadLine();
 
         }
